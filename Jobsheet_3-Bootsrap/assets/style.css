@@ -1,0 +1,14 @@
+.navbar-brand,
+.nav-link {
+    color: #fff !important;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #fdf2f2 !important;
+}
+
+form button[type="submit"]:hover,
+button[type="submit"]:hover {
+    background-color: #a7121e !important;
+}

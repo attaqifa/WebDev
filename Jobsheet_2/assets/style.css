@@ -1,4 +1,4 @@
-/* === Reset & Base === */
+/* ===== Reset & Base ===== */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -21,7 +21,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* === Header & Navbar (Flexbox) === */
+/* ===== Header & Navbar (Flexbox) ===== */
 header {
     background-color: #c81926;
     color: #fff;
@@ -39,7 +39,6 @@ header h1 {
 header nav ul {
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
     gap: 1.25rem;
 }
 
@@ -48,7 +47,7 @@ header nav a {
     font-weight: 500;
 }
 
-/* === Main Layout === */
+/* ===== Main Layout ===== */
 main {
     max-width: 1000px;
     margin: 2rem auto;
@@ -68,7 +67,7 @@ section h2 {
     color: #c81926;
 }
 
-/* === Kartu Statistik (CSS Grid) === */
+/* ===== Kartu Statistik (CSS Grid) ===== */
 main section:nth-of-type(2) {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -94,7 +93,7 @@ main section:nth-of-type(2) article p {
     color: #c81926;
 }
 
-/* === Tabel === */
+/* ===== Tabel ===== */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -174,7 +173,7 @@ form button[type="submit"]:hover {
     background-color: #a7121e;
 }
 
-/* === Footer === */
+/* ===== Footer ===== */
 footer {
     text-align: center;
     padding: 1.25rem;
